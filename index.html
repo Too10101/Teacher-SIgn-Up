@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="loadPage()">
+    <header>
+        <h1>Teacher Inservice Sign Up</h1>
+    </header>
+    <section id="before">
+        <label for=first>First Name:</label>
+        <input name="first" type="text">
+        <label for=last> Last Name:</label>
+        <input name="last" type="text">
+        <div>
+        <label for=email>Email:</label>
+        <input name="email" type=email>
+        </div>
+         <label for=subject>Subject:</label>
+        <input name="subject" type="text">
+        <div>
+        <label for=position>Position:</label>
+            <input type=radio name=position value=teacher>Teacher
+            <input type=radio name=position value=principal>Principal
+            <input type=radio name=position value=counselor>Counselor
+        </div>
+        <label for=grade>Grade Level:</label>
+            <input type=radio name=grade value=k-5>K-5
+            <input type=radio name=grade value=k-5>6-8
+            <input type=radio name=grade value=9-12>9-12
+    </section>
+        
+        <h3>Shopping Cart <span id="cartCount">0</span></h3>
+        <ul id="cart">
+        </ul>
+    <section id="after">
+        <article>
+        </article>
+    </section>
+</body>
+</html>
